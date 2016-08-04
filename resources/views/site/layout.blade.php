@@ -7,7 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="resource-type" content="document" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="author" content="Equipe superfácil :D">
+    <meta name="language" content="pt-br" />
+    <meta name="doc-class" content="Completed" />
+    <meta name="Copyright" content="Copyright (c) Supermercado Fácil"  />
+    <meta name="keywords" content="Supermercado,Supermercado Online, Compras fácil, Facilidade supermercado,Mercado Online">
+    <meta name="distribution" content="Global" />
+    <meta name="rating" content="General" />
+    <meta property="og:title" content="Supermercado Fácil" />
+    <meta property="og:type" content="website" />
+    <meta name="description" content="A facilidade da sua compra começa já!" />
+    <meta property="og:url" content="http://www.supermercadofacil.com.br" />
+    <meta property="og:image" content="http://www.http://modelo.supermercadofacil.com/product_images/LogoNovo1.png" />
+    <meta property="og:site_name" content="Supermercado Fácil" />
 
     <title>Supermercado Fácil</title>
 
@@ -78,8 +93,8 @@
 <header>
     <div class="container">
         <div class="intro-text">
-            <div class="intro-lead-in">Bem-vindo ao Novo!</div>
-            <div class="intro-heading">Uma nova forma de fazer compras</div>
+            <div class="intro-lead-in"><span class="borda">Bem-vindo ao Novo!</span></div>
+            <div class="intro-heading"><span class="borda">Uma nova forma de fazer compras</span></div>
             <a href="#services" class="page-scroll btn btn-xl">Saiba Mais</a>
         </div>
     </div>
@@ -96,26 +111,17 @@
         </div>
         <div class="row text-center">
             <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
+                   <img width="200" class="center-block img-circle img-responsive" src="{{url('img/MulherSegurandoNote.png')}}" />
                 <h4 class="service-heading">E-Commerce</h4>
                 <p class="text-muted">Comodidade para seu cliente. </p>
             </div>
             <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
+                <img width="200" class="center-block img-circle img-responsive" src="{{url('img/Custozero2.png')}}" />
                 <h4 class="service-heading">Custo Zero</h4>
                 <p class="text-muted">Tenha a loja virtual sem custo de instalaçao e configuração.</p>
             </div>
             <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
+                <img width="200"  class="center-block img-circle img-responsive" src="{{url('img/HomemNotebook.jpg')}}" />
                 <h4 class="service-heading">Facilidade</h4>
                 <p class="text-muted">O Supermercado Fácil, tem uma plataforma fácil, prática e total controle de suas vendas.</p>
             </div>
@@ -234,6 +240,7 @@
 </section>
 
 <!-- Team Section -->
+<!--
 <section id="team" class="bg-light-gray">
     <div class="container">
         <div class="row">
@@ -250,11 +257,11 @@
                     <p class="text-muted">Full Stack Developer</p>
                     <ul class="list-inline social-buttons">
                        <!-- <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>-->
+                        </li>
                         <li><a href="https://www.facebook.com/igor.roberto.790" target="_blank"><i class="fa fa-facebook"></i></a>
                         </li>
                         <!--<li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li> -->
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -265,11 +272,11 @@
                     <p class="text-muted">Gerente comercial</p>
                     <ul class="list-inline social-buttons">
                         <!-- <li><a href="#"><i class="fa fa-twitter"></i></a>
-                         </li>-->
+                         </li>
                         <li><a href="https://www.facebook.com/gi.guarita" target="_blank"><i class="fa fa-facebook"></i></a>
                         </li>
                         <!--<li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li> -->
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -279,7 +286,7 @@
                     <h4>João Paulo</h4>
                     <p class="text-muted">Full Stack Developer</p>
                     <ul class="list-inline social-buttons">
-                        <!--<li><a href="#"><i class="fa fa-twitter"></i></a> -->
+                        <!--<li><a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
                         <li><a target="_blank" href="https://www.facebook.com/jpsilveira13"><i class="fa fa-facebook"></i></a>
                         </li>
@@ -298,6 +305,7 @@
 </section>
 
 <!-- Clients Aside -->
+<!--
 <aside class="clients">
     <div class="container">
         <div class="row">
@@ -324,7 +332,7 @@
         </div>
     </div>
 </aside>
-
+-->
 <!-- Contact Section -->
 <section id="contact">
     <div class="container">
